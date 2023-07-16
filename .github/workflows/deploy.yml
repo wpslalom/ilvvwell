@@ -21,7 +21,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.SSHKEY }}
         source: "."
-        target: "/home/admin/web/mist.wpslalom.com/public_html"
+        target: "/home/admin/web/ilvvwell.wpslalom.com/public_html"
 
     - name: Executing remote command
       uses: appleboy/ssh-action@master
