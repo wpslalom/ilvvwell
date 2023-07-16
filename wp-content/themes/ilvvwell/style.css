@@ -1,0 +1,37 @@
+/*
+Theme Name: ilvvwell
+Author: Constant Vasilevs
+Author URI: https://wpilvvwell.com
+Theme URI: https://wpilvvwell.com
+Tags: full-site-editing, editor-style, block-styles, block-patterns
+Text Domain: ilvvwell
+Requires at least: 6.1
+Requires PHP: 7.4
+Tested up to: 6.2
+Version: 1.0.0
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* Styles intended only for the front.*/
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+.wp-block-read-more:hover {
+	background: var(--wp--preset--color--base);
+	color: var(--wp--preset--color--primary);
+}

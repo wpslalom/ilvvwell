@@ -1,0 +1,4 @@
+blocks.build.js merge=ours
+blocks.editor.build.css merge=ours
+blocks.style.build.css merge=ours
+front.js merge=ours
