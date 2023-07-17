@@ -16,7 +16,7 @@
 function wp_ilvvwell_starter_register_block_styles() {
 
 	register_block_style( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style
-		'core/readmore',
+		'core/read-more',
 		array(
 			'name'  => 'ilvvwell-button',
 			'label' => __( 'Button', 'ilvvwell' ),
@@ -26,8 +26,16 @@ function wp_ilvvwell_starter_register_block_styles() {
 	register_block_style( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style
 		'core/button',
 		array(
-			'name'  => 'ilvvwell-flat-button',
-			'label' => __( 'Flat button', 'ilvvwell' ),
+			'name'  => 'ilvvwell-outline-black',
+			'label' => __( 'Outline black', 'ilvvwell' ),
+		)
+	);
+
+	register_block_style( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style
+		'core/button',
+		array(
+			'name'  => 'ilvvwell-scaled',
+			'label' => __( 'Default Scaled', 'ilvvwell' ),
 		)
 	);
 

@@ -5,3 +5,8 @@ wp.blocks.registerBlockVariation('core/group', {
 		align: 'full',
 	},
 });
+
+wp.blocks.registerBlockVariation('core/read-more', {
+	name: 'like-button',
+	title: 'Like Button'
+});

@@ -30,8 +30,3 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }
-
-.wp-block-read-more:hover {
-	background: var(--wp--preset--color--base);
-	color: var(--wp--preset--color--primary);
-}

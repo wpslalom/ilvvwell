@@ -29,7 +29,11 @@ function wp_ilvvwell_starter_setup() {
 	 * Load additional block styles.
 	 * See details on how to add more styles in the readme.txt.
 	 */
-	$styled_blocks = [ 'button', 'quote', 'navigation' ];
+	$styled_blocks = [ 
+		'button', 
+		'quote', 
+		'navigation', 
+	];
 	foreach ( $styled_blocks as $block_name ) {
 		$args = array(
 			'handle' => "ilvvwell-$block_name",

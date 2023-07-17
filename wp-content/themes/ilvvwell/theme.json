@@ -239,9 +239,6 @@
 					}
 				}
 			},
-			"core/read-more": {
-				"css": "width: auto; text-align: center; cursor: pointer"
-			},
 			"core/social-link": {
 				"border": {
 					"radius": "6px !important"
