@@ -349,11 +349,6 @@
 						}
 					}
 				}
-			},
-			"core/post-title": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-large)"
-				}
 			}
 		},
 		"color": {
@@ -443,28 +438,6 @@
 			"postTypes": [
 				"post",
 				"page"
-			]
-		},
-		{
-			"name": "featured-image",
-			"title": "Featured image in header",
-			"postTypes": [
-				"post",
-				"page"
-			]
-		},
-		{
-			"name": "sidebar-page-template",
-			"title": "Page with sidebar",
-			"postTypes": [
-				"page"
-			]
-		},
-		{
-			"name": "sidebar-post-template",
-			"title": "Post with sidebar",
-			"postTypes": [
-				"post"
 			]
 		}
 	]
